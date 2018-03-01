@@ -1,0 +1,32 @@
+// *************************************************** //
+	// BASIC RESET
+// *************************************************** //
+
+$base-font-size: 14px !default;
+$base-font-family: 'Roboto', sans-serif !default;
+
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html, body {
+  font-family: $base-font-family;
+  line-height: normal;
+  height: 100%;
+  font-size: $base-font-size; // BASE APP FONT
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration-skip: none;
+}
+::selection {
+  color: #fff;
+  background-color: $col-grey-20;
+}
+
