@@ -1,0 +1,6 @@
+<!-- Stars rating component -->
+<div class="rating-container" [ngStyle]="_starStyles">
+  <ul class="rated-stars">
+    <li [ngClass]="star" *ngFor="let star of _ratedStars"></li>
+  </ul>
+</div>

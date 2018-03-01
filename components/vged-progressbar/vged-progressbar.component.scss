@@ -1,0 +1,19 @@
+@import '../../../styles/vged-colores';
+
+.vgedProgress-bar {
+    display: block;
+    width: 100%;
+    text-align: left;
+
+    .vgedPercentage {
+      color: $col-grey-70;
+      padding-bottom: 4px;
+      position: relative;
+    }
+
+    .vgedProgress {
+      display: flex;
+      align-items: center;
+      background-color: $col-silver-30;
+    }
+  }
